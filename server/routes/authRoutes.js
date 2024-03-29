@@ -8,7 +8,8 @@ router.use(
     cors({
         // Creating two objects
         credentials: true,
-        origin: 'https://localhost:5173'
+        //Frontend URL
+        origin: 'https://localhost:5175/'
     })
 )
 router.get('/', test)
